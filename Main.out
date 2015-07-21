@@ -1,0 +1,28 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Implementaton of online measurement}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Initial Scenario}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Switch to LabVIEW}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Signal filtering}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Reproducible electrode}{chapter.2}% 6
+\BOOKMARK [0][-]{chapter.3}{External influences on signal}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Introduction from Sascha's Work}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{Input length}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{Brushing against polymer}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.4}{Heating of capillary}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{Parameter estimation}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Variables of interest}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Statistical data}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{Scaling}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.4}{Variably peaked signal front}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.5}{Earthing using metal knob}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.6}{Shortening of input channel length}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.7}{Statistics of delpeak}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.8}{Curve fitting}{chapter.4}% 20
+\BOOKMARK [0][-]{chapter.5}{Implementation of control}{}% 21
+\BOOKMARK [1][-]{section.5.1}{Finite State Automata}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.2}{Characteristic line of valve}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.3}{Curve fitting for characteristic line}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.4}{Classical tuning method for fine control}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.5}{Online implementation in LV}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.6}{Performace of overall control loop}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Outlook}{}% 28

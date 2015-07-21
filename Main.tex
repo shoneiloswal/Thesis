@@ -1,0 +1,62 @@
+\documentclass[fontsize=12pt,
+		twoside,
+		parskip=half,
+		draft=false,
+		DIV=18,
+		BCOR=20mm,
+		numbers=noenddot,
+		%footsepline,
+]{scrbook} % oder book, report, ...
+\setcounter{tocdepth}{2}
+\overfullrule=5pt
+\RedeclareSectionCommand[
+  beforeskip=-15\baselineskip,
+  afterskip=2\baselineskip]{chapter}
+\usepackage{mystyle}
+\begin{document}
+%
+\thispagestyle{empty}
+\input{title.tex}
+%
+\cleardoublepage
+%
+\addchap*{Acknowledgements}
+%
+\thispagestyle{empty}
+test
+%
+\cleardoublepage
+%
+\pagenumbering{Roman}
+\setcounter{page}{1}
+%
+\tableofcontents
+%
+\cleardoublepage
+%
+\listoffigures
+%
+\cleardoublepage
+%
+\listoftables
+%
+\cleardoublepage
+%
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%
+\subfile{chapter1.tex}
+%
+\subfile{chapter2.tex}
+%
+\subfile{chapter3.tex}
+%
+\subfile{chapter4.tex}
+%
+References 
+
+Appendix
+Calibration of pumps
+
+
+\end{document}

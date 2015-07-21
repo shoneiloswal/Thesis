@@ -1,0 +1,58 @@
+\ProvidesPackage{mystyle} % Creating dummy package containing all other packages
+
+\usepackage{scrhack}
+\usepackage[latin1]{inputenc} % Umlaute direkt eingeben
+\usepackage{lmodern} % Schrift
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{graphicx} %Grafiken
+\usepackage{epsfig} %Einbindung von Grafiken in EPS-Format, Shahab Farazandeh
+\usepackage{pdflscape}
+\usepackage{ae} %Schriften
+\usepackage{amssymb} %Symbole nach AMS
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{blkarray}
+\usepackage{multirow}
+\usepackage{rotate}
+\usepackage{rotating}
+\usepackage{subfiles}
+
+%\usepackage{fancyhdr}%für fancyplain
+%\pagestyle{fancy}
+\usepackage[automark,headsepline,footsepline=.25pt]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+
+\usepackage{longtable}%Für lange Tabellen (über verschiedene Seiten)
+\usepackage{tabularx}
+\usepackage{theorem}%Packet für Theoreme
+\usepackage{enumerate}%Packet für verbesserte Aufz"ahlungen
+\usepackage{subfigure}%Packet für Abb in Abb
+\usepackage{booktabs}%Packet für Druckreife Tabellen
+\usepackage{pslatex}% Packet für Times
+\usepackage{wrapfig}%Packet für wrapping of figures
+\usepackage{flafter}%Gleitobjekte erscheinen erst nach ihrer Deklaration
+\usepackage{exscale}%für Summen und Integral Zeichen in der gleichen Größe
+\usepackage{eurosym}%für eurozeichen
+\usepackage{textcomp}%für grad celsius in text
+\usepackage[justification=justified, labelsep=period, singlelinecheck=false, tablename=Tab., figurename=Fig.,
+font=small]{caption} %Erweiterte Beschriftungsmöglichkeiten
+\usepackage{setspace}%Zeilenabstände
+\onehalfspacing%1,5
+\usepackage{floatrow}
+\usepackage{float}
+\floatsetup[longtable]{LTcapwidth=table}
+\usepackage{todonotes}
+%\usepackage{xfrac}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.10}
+\usepackage{color}
+%\usepackage{listings}
+%\PassOptionsToPackage{dvignames}{xcolor}
+%\colorlet{LimeGreen}{LimeGreen!100!}
+\usepackage{etex}
+\usepackage{relsize}
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}%Inhaltsverzeichnis links im pdf  und  Lin k 
+ %im Inhaltsverzeichnis des Dokuments
+\urlstyle{same}
+\frenchspacing
+\textheight23.7cm

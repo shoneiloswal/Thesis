@@ -1,0 +1,28 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Implementaton of online measurement}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Initial Scenario}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Switch to LabVIEW}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Signal filtering}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Reproducible electrode}{4}{section.2.4}
+\contentsline {chapter}{\numberline {3}External influences on signal}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction from Sascha's Work}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Input length}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Brushing against polymer}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}Heating of capillary}{8}{section.3.4}
+\contentsline {chapter}{\numberline {4}Parameter estimation}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Variables of interest}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Statistical data}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Scaling}{9}{section.4.3}
+\contentsline {section}{\numberline {4.4}Variably peaked signal front}{10}{section.4.4}
+\contentsline {section}{\numberline {4.5}Earthing using metal knob}{10}{section.4.5}
+\contentsline {section}{\numberline {4.6}Shortening of input channel length}{10}{section.4.6}
+\contentsline {section}{\numberline {4.7}Statistics of delpeak}{10}{section.4.7}
+\contentsline {section}{\numberline {4.8}Curve fitting}{10}{section.4.8}
+\contentsline {chapter}{\numberline {5}Implementation of control}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Finite State Automata}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Characteristic line of valve}{11}{section.5.2}
+\contentsline {section}{\numberline {5.3}Curve fitting for characteristic line}{11}{section.5.3}
+\contentsline {section}{\numberline {5.4}Classical tuning method for fine control}{12}{section.5.4}
+\contentsline {section}{\numberline {5.5}Online implementation in LV}{12}{section.5.5}
+\contentsline {section}{\numberline {5.6}Performace of overall control loop}{12}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusion and Outlook}{13}{chapter.6}
